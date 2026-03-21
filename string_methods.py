@@ -30,4 +30,3 @@ Linea 3"""
     print(f"Reverso: {python[::-1]}")
     print(f"Formato: {nombre_sin} sabe {frase[:6]}")
     print(multilinea)
-

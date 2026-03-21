@@ -3,3 +3,8 @@ def slice_simple():
     usando slicing y lower().
     """
     texto = "Awesome"
+    texto_minuscula = texto.lower()
+    print(texto_minuscula[:3])
+    print(texto_minuscula[2:5])
+    print(texto_minuscula)
+

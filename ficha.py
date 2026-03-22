@@ -58,8 +58,8 @@ def ficha():
     dominio= email_limpio[donde_dominio + 1:]
     print(f"Dominio: {dominio}")
     nombre_archivo= nombre + "_" + apellido
-    print(f"Nombre para archivo: {nombre_archivo}")
-    print(f"Cantidad de a: {nombre_archivo.count("a")}")
+    print(f"Nombre para archivo: {nombre_archivo.title()}")
+    print(f"Cantidad de a: {nombre_archivo.lower().count("a")}")
     print(f"Codigo secreto: {nombre_completo.upper()[::-1]}")
     print(f"Nota 1: {nota1}")
     print(f"Nota 2: {nota2}")
@@ -68,6 +68,6 @@ def ficha():
     print(f"Suma: {suma}")
     promedio= float((nota1 + nota2 + nota3) / 3)
     print(f"Promedio: {promedio}")
-    promedio_entero= int((nota1 + nota2 + nota3) / 3)
+    promedio_entero= (nota1 + nota2 + nota3) // 3
     print(f"Promedio entero: {promedio_entero}")
     print("========================")

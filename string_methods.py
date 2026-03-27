@@ -21,7 +21,7 @@ Linea 3"""
     print(f"Find: {frase.find('gran')}")
     frase_desarrollo= frase.replace("programacion" , "desarrollo")
     print(f"Replace: {frase_desarrollo}")
-    print(f"Count: {frase.count("a")}")
+    print(f"Count: {frase.count('a')}")
     print(f"Contiene Python: {'Python' in frase}" )
     print(f"Contiene Java: {'java' in frase}")
     print(f"Slice: {frase[:6]}")

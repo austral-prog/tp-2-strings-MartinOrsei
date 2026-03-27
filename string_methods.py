@@ -6,8 +6,8 @@ def string_methods():
     nombre = "   Grace Hopper   "
     frase = "Python es un gran lenguaje de programacion"
     multilinea = """Linea 1
-    Linea 2
-    Linea 3"""
+Linea 2
+Linea 3"""
 
     nombre_sin = nombre.strip()
     print(f"Strip: {nombre_sin}")
@@ -29,4 +29,6 @@ def string_methods():
     python = "Python"
     print(f"Reverso: {python[::-1]}")
     print(f"Formato: {nombre_sin} sabe {frase[:6]}")
-    print(multilinea)
+    print("Linea 1")
+    print("Linea 2")
+    print("Linea 3")

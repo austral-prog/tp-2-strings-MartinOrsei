@@ -53,13 +53,13 @@ def ficha():
     print(f"Iniciales: {iniciales.upper()}")
     usuario= apellido + "." + nombre
     print(f"Usuario: {usuario.lower()}")
-    print(f"Email valido: {"@" in email_limpio}")
+    print(f"Email valido: {'@' in email_limpio}")
     donde_dominio= email_limpio.find("@")
     dominio= email_limpio[donde_dominio + 1:]
     print(f"Dominio: {dominio}")
     nombre_archivo= nombre_completo.replace(" ", "_")
     print(f"Nombre para archivo: {nombre_archivo.title()}")
-    print(f"Cantidad de a: {nombre_archivo.lower().count("a")}")
+    print(f"Cantidad de a: {nombre_archivo.lower().count('a')}")
     print(f"Codigo secreto: {nombre_completo.upper()[::-1]}")
     print(f"Nota 1: {nota1}")
     print(f"Nota 2: {nota2}")
@@ -71,4 +71,3 @@ def ficha():
     promedio_entero= (nota1 + nota2 + nota3) // 3
     print(f"Promedio entero: {promedio_entero}")
     print("========================")
-

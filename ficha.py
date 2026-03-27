@@ -71,3 +71,4 @@ def ficha():
     promedio_entero= (nota1 + nota2 + nota3) // 3
     print(f"Promedio entero: {promedio_entero}")
     print("========================")
+

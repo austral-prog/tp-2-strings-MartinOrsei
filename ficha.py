@@ -29,8 +29,8 @@ def ficha():
     FICHA DEL ALUMNO
 ========================"""
 
-    nombre = input("Introduzca su nombre y apellido:")
-    nombre_completo = nombre.title().strip()
+    nombre_feo = input("Introduzca su nombre y apellido:")
+    nombre_completo = nombre_feo.title().strip()
 
     email = input("Intorduzca su Email: ")
     email_limpio = email.lower().strip()
